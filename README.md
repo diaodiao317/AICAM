@@ -18,7 +18,8 @@ python run_sample.py --voc12_root ../VOCdevkit/VOC2012/ --train_cam_pass True --
 python run_sample.py --voc12_root ./VOCdevkit/VOC2012/ --cam_to_ir_label_pass True --train_irn_pass True --make_sem_seg_pass True --eval_sem_seg_pass True 
 ```
 ### Step 4. Train semantic segmentation network.
-To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch). All hyperparameters use default settings.
+
+Remember to use pseudo masks to replace ground truth. To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch). All hyperparameters use default settings.
 
 
 ## Acknowledgment
