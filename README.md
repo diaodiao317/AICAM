@@ -4,16 +4,13 @@ Our code will be published soon.
 ![image](https://github.com/diaodiao317/AICAM/blob/main/vis.png)
 
 ## Performance
+### VOC12
 | Method      | Seed Mask           | Pseudo mask | Seg result(val) | Seg result(test) | Weight/logs |
 |-------------|---------------------|-------------|-----------------|------------------|-------------|
 | AICAM       | 55.1(54.9 in paper) | 71.0        | 68.6            | 68.5             |[drive](https://drive.google.com/drive/folders/1LFajOCDcERd1mUUHmlLtG1KM4Fw6URPN?usp=sharing)             |
 | AICAM†      | 55.1(54.9 in paper) | 71.0        | 70.6            | 70.8             |[drive](https://drive.google.com/drive/folders/1LFajOCDcERd1mUUHmlLtG1KM4Fw6URPN?usp=sharing)             |
 |  AICAM+AMN† | 66                  | 72.4        | 70.8            | 70.8             |[drive](https://drive.google.com/drive/folders/1c727fHKvToiypuNME4i-2y2KRihYoCkm?usp=sharing)              |
 | AICAM+LPCAM | 55.6                | 71.4        | 69.0            | 69.2             |[drive](https://drive.google.com/drive/folders/13nDmNujDuGycrXlKCUpLjgMacSv3MwX4?usp=drive_link)             |
-
-
-### VOC12
-
 
 ## Prerequisite
 - In environment.yml
