@@ -5,8 +5,6 @@ Our code will be published soon.
 
 ## Prerequisite
 - In environment.yml
-```
-```
 ## Usage 
 ### Step 1. Prepare dataset.
 - Download PASCAL VOC 2012 devkit from [official website](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit). [Download](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar). 
@@ -20,7 +18,7 @@ python run_sample.py --voc12_root ../VOCdevkit/VOC2012/ --train_cam_pass True --
 python run_sample.py --voc12_root ./VOCdevkit/VOC2012/ --cam_to_ir_label_pass True --train_irn_pass True --make_sem_seg_pass True --eval_sem_seg_pass True 
 ```
 ### Step 4. Train semantic segmentation network.
-To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch). 
+To train DeepLab-v2, we refer to [deeplab-pytorch](https://github.com/kazuto1011/deeplab-pytorch). All hyperparameters use default settings.
 
 
 ## Acknowledgment
